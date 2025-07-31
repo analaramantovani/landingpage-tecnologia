@@ -16,14 +16,13 @@
     font-family: 'Montserrat';
     text-decoration: none;
     color: var(--cor-branco);
-    max-width: 1400px;
+    
 }
 
 header {
     background-color: var(--cor-roxao);
     padding: 30px;
     max-width: 1400px;
-    margin: 0 auto;
 
     font-size: 18px;
 }
@@ -51,4 +50,69 @@ header nav {
     display: flex;
 }
 
+.conteudo-home {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 40px; 
+    padding-top: 70px;
+    gap: 10px; 
+}
 
+.quemsomos {
+    background-color: var(--cor-roxo);
+    padding: 40px 60px;
+    color: var(--cor-branco);
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.servicos {
+    height: 400px;
+    padding: 60px 40px;
+    background-color: #140f25;
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+.servicos-subtitulo {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: var(--cor-branco);
+}
+
+.servicos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.servico-card {
+    background-color: #1d182e;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+.servico-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--cor-branco);
+}
+
+.servico-card p {
+    font-size: 15px;
+    color: var(--cor-branco);
+}
+
+.equipe {
+    background-color: var(--cor-branco);
+    height: 100px;
+}
+
+.participantes h3{
+    color: var(--cor-roxo2);
+    font-size: 20px;
+}
