@@ -1,14 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-
+    --cor-rosa-claro: #FC99C4;
+    -cor-rosa: #DB73B7 ;
+    --cor-roxo: #903799;
+    --cor-roxo2: #5C2179;
+    --cor-roxo-escuro: #311058;
+    --cor-roxao: #110537;
+    --cor-preto: #000000;
+    --cor-branco: #FFFFFF;
 }
 *{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
     text-decoration: none;
-    color: black;
+    color: var(--cor-branco);
     max-width: 1400px;
+}
+
+header {
+    background-color: var(--cor-roxo-escuro);
+    padding: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    font-size: 18px;
+}
+
+header img {
+    width: 70px;
+}
+
+
+.home {
+    background-color: #110537;
+}
+
+.d-flex {
+    display: flex;
 }
 
